@@ -1,0 +1,17 @@
+{
+  "name": "tool-vault",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A private, single-admin vault for storing, downloading, and running tools.",
+  "scripts": {
+    "start": "node --env-file-if-exists=.env server.js",
+    "cli": "node --env-file-if-exists=.env cli.js"
+  },
+  "engines": {
+    "node": "^22.13.0 || ^24.0.0"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "multer": "^2.0.2"
+  }
+}
